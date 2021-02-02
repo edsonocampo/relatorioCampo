@@ -71,7 +71,9 @@
 }
 
 
-
+h3{
+  text-align: center;
+}
 .formulario{
     width: 400px;
     padding: 30px;
