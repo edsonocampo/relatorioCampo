@@ -18,37 +18,47 @@
   
       <main class="styles card">
 
-        <a href="teste.html">Relatorio</a>
-
-    
-            <h3>Relatório de serviço de campo</h3>
-            <h4>Fevereiro de 2021</h4>
+              
+            <h2>Relatório de serviço de campo</h2>
+            <h3>Fevereiro de 2021</h3>
         <br>
             
     <form name="contact" method="POST" data-netlify="true">
     
     <div class="field">
             <label for="nome">Seu Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome e sobrenome*" required>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
         </div>
         
         <div class="field">
-            <label for="telefone">Seu Telefone:</label>
-            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            <label for="publicacoes">Publicações:</label>
+            <input type="number" id="publicacoes" name="publicacoes" placeholder="Publicações impressas ou digitais">
         </div>
 
         <div class="field">
-            <label for="email">Seu E-Mail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
-        </div>        
-        <div class="field radiobox">
-            <span>Deseja receber nossas novidades?</span>
-            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            <label for="videos">Vídeos:</label>
+            <input type="number" id="videos" name="videos" placeholder="Vídeos">
         </div>
+
         <div class="field">
-            <label for="mensagem">Sua mensagem:</label>
-            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            <label for="horas">Horas:</label>
+            <input type="number" id="horas" name="horas" placeholder="Horas*" required>
+        </div>
+
+        <div class="field">
+            <label for="revisitas">Revisitas:</label>
+            <input type="number" id="revisitas" name="revisitas" placeholder="Revisitas">
+        </div>
+
+        <div class="field">
+            <label for="estudos">Estudos bíblicos:</label>
+            <input type="number" id="estudos" name="estudos" placeholder="Estudos">
+        </div>
+
+               
+        <div class="field">
+            <label for="mensagem">Observações:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Observações"></textarea>
         </div>
 
         <input type="submit" name="acao" value="Enviar">
@@ -66,4 +76,3 @@
 </body>
 </html>
 
-    

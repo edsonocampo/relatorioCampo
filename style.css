@@ -102,6 +102,7 @@ h3{
     display: inline-block;
 }
 input[type=text],
+input[type=number],
 input[type=email],
 textarea{
     width: 100%;
