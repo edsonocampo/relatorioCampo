@@ -36,6 +36,9 @@ h1,h2,h3{
 h3{
   color: gray;
 }
+.ast{
+  color: red;
+}
 .formulario{
     width: 400px;
     padding: 30px;
