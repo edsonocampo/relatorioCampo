@@ -87,7 +87,7 @@ textarea{
 input[type=submit]{
     display: block;
     background-color: #ccc;
-    height: 35px;
+    height: 50px;
     border: none;
     outline: 0;
     cursor: pointer;
