@@ -12,7 +12,7 @@
 
 
 .azul{
-  color: blue;
+  color: grey;
 }
 
 
@@ -68,7 +68,6 @@ h3{
 input[type=text],
 input[type=number],
 input[type=email],
-input[type=button],
 textarea{
     width: 100%;
     padding-left: 10px;
@@ -88,18 +87,6 @@ textarea{
     resize: none;
 }
 input[type=submit]{
-    display: block;
-    background-color: #ccc;
-    height: 50px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
-}
-input[type=button]{
     display: block;
     background-color: #ccc;
     height: 50px;
